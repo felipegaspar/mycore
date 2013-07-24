@@ -8,7 +8,7 @@ In This file i will be explaining how to use MyCore in your WebSite.
 We are still in Alpha, so, more iten's will be implemented within time,
 
 How-to Set-Up:
-1. Copy the mycore.php script inside your HTML/PHP root dir, on most linux system is /var/www or /srv/http
+1. Copy the mycore.php script inside your HTML/PHP root dir, on most linux system is /var/www or /srv/http.
 2. Edit the mycore.php and change the text "Whatever you want here" inside the SAL to the test for SALLING the passwords.
 3. Test to see if MyCore.php it's working, for that, see bellow the How-to Test section.
 4. type include_once('mycore.php'); on the top of every PHP file that you want to use MyCore.
