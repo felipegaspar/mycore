@@ -1,0 +1,30 @@
+MyCore is OpenSource over the GPLv3, you can find a copy at http://www.gnu.org/licenses/gpl.html.
+MyCore if developed by Artur 'hoOmE' Paiva <dr.hoome@gmail.com>
+MyCore uses MySQL or MariaDB
+
+Current Version: 0.0.3 Alpha
+
+ChangeLog:
+Version 0.0.1 Alpha:
+  -> Where's everything beggins
+
+Version 0.0.2 Alpha:
+  -> Fix some bugs.
+  -> Added Create a Table
+  -> Added login functions
+
+Version 0.0.3 Alpha:
+  -> Fix some bugs.
+  -> Added itswork function
+  -> Add VERSION constant
+  -> Better commentaries in the code.
+  -> Add disconnect method in database class.
+
+  
+Things to Do:
+  -> Add error output at database class.
+  -> Inprove inject funtion.
+  -> Inprove the login functions.
+  -> Add new functions.
+  -> Inprove the error detection at itswrok script.
+  -> Add function to register a user.
