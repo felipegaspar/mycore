@@ -40,7 +40,13 @@
 
         // Delete a table
         function deltable($name) {
-            $this->conn->exec("DROP TABLE $name;");
+            $rs = $this->conn->query("SHOW TABLE LIKE `$name`");
+            if(count($rs)>0) {
+                $this->conn->exec("DROP TABLE $name;");
+            } else {
+                die('Cannot find given table '.$name);
+            }
+            
         }
 
         // Insert value in a table
